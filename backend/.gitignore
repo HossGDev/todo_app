@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.venv/
+env/
+venv/
+ENV/
+.env
+
+# VSCode
+.vscode/
+
+# uv, poetry, and pip cache
+uv.lock
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.db
+postgres_data/
+
+# Node (if you add React frontend later)
+node_modules/
+npm-debug.log
+yarn-error.log
+.env.local
+.env.development
+.env.production
+
+# Misc
+.idea/
+*.swp
